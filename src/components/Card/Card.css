@@ -10,13 +10,17 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  background-color: #47597e;
+
   /* background: "https://picsum.photos/seed/picsum/200/300"; */
 }
 .cardTop {
   display: flex;
   justify-content: space-between;
   margin: 20px;
+}
+.cardImage > img {
+  height: auto;
+  width: 250px;
 }
 .hrElement {
   border: 0;
@@ -26,4 +30,6 @@
 .cardBottom {
   background-color: #5273eb;
   padding: 20px;
+  border-radius: 0px 0px 10px 10px;
+  color: white;
 }
