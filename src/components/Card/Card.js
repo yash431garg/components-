@@ -9,7 +9,7 @@ function Card(props) {
   const dispatch = useDispatch();
   return (
     <div>
-      {false ? (
+      {isCardClicked ? (
         "Cards are clicked"
       ) : (
         <div
